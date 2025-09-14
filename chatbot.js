@@ -3,7 +3,7 @@ const chatForm = document.getElementById('chatForm');
 const userInput = document.getElementById('userInput');
 
 // Replace this with your n8n webhook endpoint
-const N8N_WEBHOOK_URL = 'https://YOUR_N8N_WEBHOOK_URL';
+const N8N_WEBHOOK_URL = 'http://localhost:5678/webhook/96f959b1-21a9-4313-9c5d-5b559d9c581d';
 
 function addMessage(text, sender = 'user') {
   const msg = document.createElement('div');
